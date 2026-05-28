@@ -1,5 +1,5 @@
  /* --------------------------------------------------
-  * © Copyright 2025 - LogiXPress by Designesia
+  * © Copyright 2025 - Meg Freight by Designesia
   * --------------------------------------------------*/
 (function($) {
 	'use strict';
