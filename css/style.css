@@ -17,8 +17,6 @@ Table of content:
 
 /* ================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* ================================================== */
 
@@ -36,6 +34,42 @@ Table of content:
 @import url("../fonts/et-line-font/style.css");
 @import url("../fonts/icofont/icofont.min.css");
 
+
+@font-face {
+  font-family: 'Inter 18pt';
+  src: url('Inter-Bold.woff2') format('woff2'),
+    url('Inter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter 18pt';
+  src: url('Inter-Regular.woff2') format('woff2'),
+    url('Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('Manrope-Regular.woff2') format('woff2'),
+    url('Manrope-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('Manrope-Bold.woff2') format('woff2'),
+    url('Manrope-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 /* css variables */
 * {
   /* body font */
@@ -1315,7 +1349,7 @@ section.no-bg,
 footer {
   color: var(--body-font-color-bg-dark);
   background: var(--bg-dark-1);
-  padding: 100px 0 0 0;
+  padding: 50px 0 0 0;
 }
 
 footer.footer-light {
@@ -13347,6 +13381,9 @@ img {
 
 }
 
+img.blue-icon {
+  filter: brightness(0) saturate(100%) invert(16%) sepia(93%) saturate(1615%) hue-rotate(210deg) brightness(93%) contrast(98%);
+}
 /* -------------------------------------------------- 
     design for 480px
     /* -------------------------------------------------- */
