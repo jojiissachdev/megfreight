@@ -81,7 +81,7 @@ Table of content:
   /* heading font */
   --heading-font: "Manrope", Helvetica, Arial, sans-serif;  
   --heading-font-weight: 500;
-  --heading-font-color: #181D24;
+  --heading-font-color: #022f74;
   --heading-font-color-bg-dark: #ffffff;
   --heading-text-transform: none;
   /* h1 */
@@ -13482,10 +13482,6 @@ img.blue-icon {
   }
   div#logo img {
     max-width: 150px;
-  }
-  .mobile-header{
-    margin-top: 10px !important;
-    margin-left: 10px !important;
   }
   .header-col-last {
     margin-right: 50px !important;
