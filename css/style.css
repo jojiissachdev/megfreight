@@ -13384,6 +13384,21 @@ img {
 img.blue-icon {
   filter: brightness(0) saturate(100%) invert(16%) sepia(93%) saturate(1615%) hue-rotate(210deg) brightness(93%) contrast(98%);
 }
+h2.title-text {
+  position: relative;
+  display: inline-block;
+}
+
+h2.title-text::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 325px;
+  height: 3px;
+  background: #022f74;
+  border-radius: 10px;
+}
 /* -------------------------------------------------- 
     design for 480px
     /* -------------------------------------------------- */
